@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&display=swap');
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color:rgb(178, 243, 145);
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(247, 79, 49);
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+span{
+    color: azure;
+}
+.container{
+    margin-top: 2rem;
+    width:30rem;
+    height:30rem;
+    background-color: rgb(56, 57, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.outer{
+    /* background-image: url(C:\Users\tayal\OneDrive\Desktop\mlmodelgui\pricePredictorGUI-main\src\images\banner.jpg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello{
+    margin: auto;
+    width: 28.5rem;
+    border: 3px solid rgb(250, 251, 250);
+    padding: 10px;
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content; */
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    margin:5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    margin: 2rem;
+    /* align-items: center; */
+    background-color: rgb(247, 79, 49);
+    width:10rem;
+    height:3rem;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: rgb(178, 243, 145);
+}
+select{
+    width:15rem;
+    height:2rem;
+    border:none;
+    border-radius: 5px;
+}
+.white{
+    background-color: white;
+    
+}
+span{
+    margin-right:2px;
+}
