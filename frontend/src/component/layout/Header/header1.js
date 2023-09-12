@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* <div className="logo">Your Logo</div> */}
       <ul className="nav-links">
-        <li><a href="http://localhost:3000/model">⚙️</a></li>
+        <li><a href="https://admirable-crisp-56a163.netlify.app/">⚙️</a></li>
         <li><a href="https://sabzibazaar-1007fe79081d.herokuapp.com/login">👤</a></li>
         <li><a href="https://sabzibazaar-1007fe79081d.herokuapp.com/orders">🎒</a></li>
         <li><a href="https://sabzibazaar-1007fe79081d.herokuapp.com/cart">🛒</a></li>
